@@ -1,9 +1,19 @@
 {
   "name": "manifesto-backoffice",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "Manifesto's backoffice microservice",
+  "main": "bin/www",
+  "engines": {
+    "node": ">=6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adab1ts/manifesto-backoffice.git"
+  },
+  "license": "AGPL-3.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ."
   },
   "dependencies": {
     "express": "~4.13.4",
